@@ -15,7 +15,7 @@
             <a href="https://www.youtube.com/channel/UCWAH8FrQMgxKZYxWPRynrKw" target="_blank"><img src="~assets/youtube.svg" title="take a look on my YouTube channel" alt="youtube logo"></a>
       </div>
       <div class="email">
-            <a href="mailto:perrofeofilms@gmail.com"><img src="~assets/EMAIL.svg" title="perrofeofilms@gmail.com"></a>
+            <a href="mailto:perrofeofilms@gmail.com"><img src="~assets/EMAIL.svg" title="perrofeofilms@gmail.com" alt="email icon"></a>
       </div>
     
     </div>
