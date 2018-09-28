@@ -11,11 +11,11 @@
     </b-navbar>  
 
 
-      <div class="youtube" href="#">
-            <img src="~assets/youtube.svg">
+      <div class="youtube">
+            <a href="https://www.youtube.com/channel/UCWAH8FrQMgxKZYxWPRynrKw" target="_blank"><img src="~assets/youtube.svg" title="take a look on my YouTube channel" alt="youtube logo"></a>
       </div>
-      <div class="email" href="#">
-            <img src="~assets/EMAIL.svg">
+      <div class="email">
+            <a href="mailto:perrofeofilms@gmail.com"><img src="~assets/EMAIL.svg" title="perrofeofilms@gmail.com"></a>
       </div>
     
     </div>
