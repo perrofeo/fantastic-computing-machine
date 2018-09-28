@@ -57,17 +57,20 @@ export default {
   position: absolute;
   left: 15px;
   top: 80px;
-  padding: 0 10px;
+  padding: 0 9px;
   
 }
-.youtube img, .email img{
-  width: 30px;
+.youtube img{
+  width: 32px;
 }
 .email{
   position: absolute;
   top: 110px;
   left: 15px;
   padding: 10px 10px;
+}
+.email img{
+  width: 30px;
 }
 
 @media(max-width:750px) {
@@ -76,7 +79,7 @@ export default {
       right: 80px;
       left: 0;
       top: 20px;
-      padding: 0 10px;
+      padding: 0 9px;
       text-align: right; 
     }
     .email{
