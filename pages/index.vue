@@ -67,7 +67,7 @@ export default {
   position: absolute;
   top: 110px;
   left: 15px;
-  padding: 0 10px;
+  padding: 10px 10px;
 }
 
 @media(max-width:750px) {
@@ -84,7 +84,8 @@ export default {
       right: 10px;
       left: 0;
       top: 20px;
-      text-align: right; 
+      text-align: right;
+      padding: 0px 10px; 
     }
 }
 </style>
