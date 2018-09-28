@@ -74,7 +74,7 @@ export default {
 </style>
 <style scoped>
   section {
-    background-image: url("~assets/portadaNoche.jpg");
+    background-image: url("~assets/portada3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
