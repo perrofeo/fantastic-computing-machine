@@ -8,16 +8,16 @@
         <img class="rounded-circle" src="~assets/logo_perrofeofilms_amarillo.jpg">
       </b-navbar-brand>
 
-    
-    <b-navbar-nav>
+    </b-navbar>  
 
-      <b-nav-item href="#">
+
+      <div class="youtube" href="#">
             <img src="~assets/youtube.svg">
-          </b-nav-item>
-      <b-nav-item href="#" right>perrofeofilms@gmail.com</b-nav-item>
-    </b-navbar-nav>
-    </b-navbar>
-    <!-- navbar-1.vue -->
+      </div>
+      <div class="email" href="#">
+            <img src="~assets/EMAIL.svg">
+      </div>
+    
     </div>
     
   </section>
@@ -53,24 +53,40 @@ export default {
     background-color: transparent!important;
 }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+.youtube{
+  position: absolute;
+  left: 15px;
+  top: 80px;
+  padding: 0 10px;
+  
+}
+.youtube img, .email img{
+  width: 30px;
+}
+.email{
+  position: absolute;
+  top: 110px;
+  left: 15px;
+  padding: 0 10px;
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+@media(max-width:750px) {
+    .youtube{
+	    position: absolute;
+      right: 80px;
+      left: 0;
+      top: 20px;
+      padding: 0 10px;
+      text-align: right; 
+    }
+    .email{
+      position: absolute;
+      right: 10px;
+      left: 0;
+      top: 20px;
+      text-align: right; 
+    }
 }
-
 </style>
 <style scoped>
   section {
