@@ -58,6 +58,7 @@ export default {
   left: 15px;
   top: 80px;
   padding: 0 9px;
+  z-index: 3;
   
 }
 .youtube img{
