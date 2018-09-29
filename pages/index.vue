@@ -69,6 +69,7 @@ export default {
   top: 110px;
   left: 15px;
   padding: 10px 10px;
+  z-index: 3;
 }
 .email img{
   width: 30px;
