@@ -5,7 +5,7 @@
 
 
       <b-navbar-brand href="#">
-        <img class="rounded-circle" src="~assets/logo_perrofeofilms_amarillo.jpg">
+        <img class="rounded-circle" src="~assets/logo_perrofeofilms_amarillo.jpg" alt="perrofeo logo">
       </b-navbar-brand>
 
     </b-navbar>  
