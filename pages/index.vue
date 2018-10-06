@@ -57,7 +57,7 @@ export default {
 .youtube{
   position: absolute;
   left: 15px;
-  top: 110px;
+  top: 120px;
   padding: 0 9px;
   z-index: 3;
   
@@ -67,7 +67,7 @@ export default {
 }
 .email{
   position: absolute;
-  top: 80px;
+  top: 70px;
   left: 15px;
   padding: 10px 10px;
   z-index: 3;
