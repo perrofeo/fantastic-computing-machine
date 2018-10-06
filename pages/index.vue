@@ -79,7 +79,7 @@ export default {
 @media(max-width:750px) {
     .youtube{
 	    position: absolute;
-      right: 10px;
+      right: 80px;
       left: 0;
       top: 20px;
       padding: 0 9px;
@@ -87,7 +87,7 @@ export default {
     }
     .email{
       position: absolute;
-      right: 80px;
+      right: 10px;
       left: 0;
       top: 20px;
       text-align: right;
