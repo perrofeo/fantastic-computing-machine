@@ -17,9 +17,14 @@
       <div class="youtube">
             <a href="https://www.youtube.com/channel/UCWAH8FrQMgxKZYxWPRynrKw" target="_blank" rel="noopener"><img src="~assets/youtube.svg" title="take a look on my YouTube channel" alt="youtube logo"></a>
       </div>
-      
-    
-    </div>
+      <div class="films d-flex justify-content-center">
+        <div class="">
+        <b-button>
+            <a href="#">La Guitarra de Hitler</a>
+        </b-button>
+        </div>  
+        </div>
+     </div>
     
   </section>
 </template>
@@ -75,6 +80,24 @@ export default {
 .email img{
   width: 30px;
 }
+.films{
+  position: absolute;
+  left: 15px;
+  top: 175px;
+  padding: 0 9px;
+  z-index: 3;
+}
+.films .btn-secondary {
+    color: black;
+    background-color: #ddfe19;
+    border-color: black;
+}
+.films a{
+  color: black;
+}
+.films a:hover{
+  text-decoration: none;
+}
 
 @media(max-width:750px) {
     .youtube{
@@ -93,6 +116,22 @@ export default {
       text-align: right;
       padding: 0px 10px; 
     }
+    .films{
+      position: absolute;
+   left: auto;
+   top: auto;
+    bottom: 150px;
+    padding: 0 9px;
+    z-index: 3;
+    /* margin: auto; */
+    text-align: center;
+    width: 100%;
+    }
+}
+@media(max-width:750px)and (orientation: landscape){
+    .films{
+      bottom: 80px;
+      }
 }
 </style>
 <style scoped>
