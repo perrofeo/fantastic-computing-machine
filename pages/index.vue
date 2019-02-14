@@ -23,7 +23,6 @@
             <a href="#">La Guitarra de Hitler</a>
         </b-button>
         </div>  
-        </div>
      </div>
     
   </section>
