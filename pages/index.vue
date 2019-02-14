@@ -19,7 +19,7 @@
       </div>
       <div class="films d-flex justify-content-center">
         <div class="">
-        <b-button v-b-popover.hover="'Una historia amazónica protagonizada por Hitler Lomas Canaquiri'" title="De la selva al mundo">
+        <b-button v-b-popover.hover="'Una historia amazónica protagonizada por Hitler Lomas Canaquiri.'" title="De la selva al mundo">
             <a href="#">La Guitarra de Hitler</a>
         </b-button>
         </div>  
