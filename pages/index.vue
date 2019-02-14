@@ -4,22 +4,22 @@
     <b-navbar toggleable="" type="dark" variant="info">
 
 
-      <b-navbar-brand href="#">
-        <img class="rounded-circle" src="~assets/logo_perrofeofilms_amarillo.jpg" title="jau!" alt="perrofeo logo">
+      <b-navbar-brand href="#" v-b-popover.hover="'-Jau!'" title="perrofeofilms">
+        <img class="rounded-circle" src="~assets/logo_perrofeofilms_amarillo.jpg" alt="perrofeo logo">
       </b-navbar-brand>
 
     </b-navbar>  
 
-      <div class="email">
-            <a href="mailto:perrofeofilms@gmail.com"><img src="~assets/EMAIL.svg" title="perrofeofilms@gmail.com" alt="email icon"></a>
+      <div class="email" v-b-popover.hover="'perrofeofilms@gmail.com'">
+            <a href="mailto:perrofeofilms@gmail.com"><img src="~assets/EMAIL.svg" alt="email icon"></a>
       </div>
 
-      <div class="youtube">
-            <a href="https://www.youtube.com/channel/UCWAH8FrQMgxKZYxWPRynrKw" target="_blank" rel="noopener"><img src="~assets/youtube.svg" title="take a look on my YouTube channel" alt="youtube logo"></a>
+      <div class="youtube" v-b-popover.hover="'take a look on my YouTube channel!'">
+            <a href="https://www.youtube.com/channel/UCWAH8FrQMgxKZYxWPRynrKw" target="_blank" rel="noopener"><img src="~assets/youtube.svg" alt="youtube logo"></a>
       </div>
       <div class="films d-flex justify-content-center">
         <div class="">
-        <b-button>
+        <b-button v-b-popover.hover="'Una historia amazónica protagonizada por Hitler Lomas Canaquiri'" title="De la selva al mundo">
             <a href="#">La Guitarra de Hitler</a>
         </b-button>
         </div>  

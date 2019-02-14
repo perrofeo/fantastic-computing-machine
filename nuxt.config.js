@@ -36,8 +36,12 @@ module.exports = {
   */
   modules: [
     // Doc: https://bootstrap-vue.js.org/docs/
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
+    '@nuxtjs/markdownit'
   ],
+
+  // [optional] markdownit options
+  // See https://github.com/markdown-it/markdown-it
 
   /*
   ** Build configuration
