@@ -22,7 +22,8 @@
         <b-button v-b-popover.hover="'Una historia amazónica protagonizada por Hitler Lomas Canaquiri.'" title="De la selva al mundo">
             <a href="#">La Guitarra de Hitler</a>
         </b-button>
-        </div>  
+        </div>
+      </div>  
      </div>
     
   </section>
